@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: adsoftsito-config
+  name: fermindra-config
   labels:
     app: postgres
 data:
