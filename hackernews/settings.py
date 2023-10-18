@@ -83,12 +83,20 @@ WSGI_APPLICATION = 'hackernews.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
+    #'default': {
+    #    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #    'NAME': 'hackernewsv2',
+    #    'USER': 'postgres',
+    #    'PASSWORD': 'postgres',
+    #    'HOST': 'localhost',
+    #    'PORT': '5432',
+    #},
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'hackernewsv2',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
+        'NAME': 'cvtfkvhk',
+        'USER': 'cvtfkvhk',
+        'PASSWORD': 'LlzLheVVMBQE9rdhno62F2L-_A8d0L2M',
+        'HOST': 'hansken.db.elephantsql.com',
         'PORT': '5432',
     },
     'test': {
